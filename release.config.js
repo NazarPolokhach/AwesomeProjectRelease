@@ -12,13 +12,14 @@ module.exports = {
     '@semantic-release/release-notes-generator',
     // Updates the version
     '@semantic-release/npm',
+    'semantic-release-react-native',
     [
       // Commits, tags, and pushes
       '@semantic-release/git',
       {
         assets: [
-          'ios/donesafe*/Info.plist',
-          'ios/donesafe.xcodeproj/project.pbxproj',
+          'ios/**/Info.plist',
+          'ios/**/*.pbxproj',
           'android/app/build.gradle',
           'package.json',
         ],
