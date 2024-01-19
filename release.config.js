@@ -1,5 +1,5 @@
 module.exports = {
-  branches: ['master'],
+  branches: ['master', 'release'],
   npmPublish: false,
   // We're initiating the release from
   // our local machine.
