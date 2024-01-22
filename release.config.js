@@ -12,7 +12,6 @@ module.exports = {
     '@semantic-release/release-notes-generator',
     // Updates the version
     '@semantic-release/npm',
-    'semantic-release-react-native',
     [
       // Commits, tags, and pushes
       '@semantic-release/git',
